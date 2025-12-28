@@ -1,0 +1,7 @@
+# List your Test Bench files here, relative to the path of the run directory
+../sourcecode/tb/sm_tb.v
+
+
+# List your RTL files here, relative to the path of the run directory
+../sourcecode/rtl/sm.v
+

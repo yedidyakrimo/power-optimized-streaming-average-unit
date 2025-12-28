@@ -1,0 +1,3 @@
+-f ../libraries/libraries.ARM65LP_SC.f
+../export/post_synth/average.v
+../src/tb/average_tb.sv

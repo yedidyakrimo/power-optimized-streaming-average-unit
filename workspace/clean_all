@@ -1,0 +1,14 @@
+#!#/usr/csh
+rm -rf dump
+rm -rf xcelium.d
+rm -rf voltus*
+rm -rf innovus*
+rm -rf wvs
+rm -rf fv
+rm -rf .simvision/
+rm xrun.* -f
+rm *.err -f
+rm *.diag -f
+rm genus.* -f
+rm -f debug.txt
+rm ../output/exp_output.txt -f

@@ -1,0 +1,54 @@
+# Documentation - Course PDFs (Copyright protected)
+docs/*.pdf
+
+# Library files - These are proprietary and should not be uploaded
+# (Library definition files are OK, but actual .lib files are not)
+libraries/*.lib
+libraries/*.db
+libraries/*.lef
+libraries/*.gds
+
+# Large binary files
+*.vcd
+*.fsdb
+*.shm
+
+# Cadence tool generated files
+*.log
+*.rpt.bak
+*.db
+*.g
+
+# Export directories with large files
+export/post_synth/*.vcd
+export/simulation/*.vcd
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Setup scripts (no longer needed)
+check_and_setup_git.bat
+setup_git.ps1
+setup_git.py
+upload_to_github.ps1
+RUN_ME.bat
+GIT_STATUS.md
+QUICK_START.md
+README_RUN_ME.md
+FIX_LINE_ENDINGS.md
+FILES_TO_DELETE.txt
+CLEANUP_INSTRUCTIONS.md
+
+# Example files (not part of this project)
+src/rtl/sm.v
+src/tb/sm_tb.v

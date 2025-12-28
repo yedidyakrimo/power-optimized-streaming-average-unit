@@ -1,0 +1,37 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Explicitly declare text files you want to always be normalized and converted
+# to native line endings on checkout.
+*.v text eol=lf
+*.sv text eol=lf
+*.tcl text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.sdc text eol=lf
+*.defines text eol=lf
+*.f text eol=lf
+
+# Denote all files that are truly binary and should not be modified.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.vcd binary
+*.fsdb binary
+*.db binary
+*.lib binary
+*.lef binary
+*.gds binary
+*.sdf binary
+
+# Windows batch files should use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell scripts can use either, but LF is preferred
+*.ps1 text eol=lf
+
+

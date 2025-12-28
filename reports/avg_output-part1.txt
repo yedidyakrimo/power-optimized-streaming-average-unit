@@ -1,0 +1,5 @@
+# EX_3 part 1 Moshe Israeli 123456789
+TEST 1: Normal Operation (10, 20, 30)
+TEST 1 Result: Output = 20 (Expected 20)
+TEST 2: Timeout Logic
+TEST 2 PASSED: Timeout signal asserted.

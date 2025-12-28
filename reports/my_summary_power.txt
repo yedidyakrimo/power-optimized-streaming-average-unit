@@ -1,0 +1,5 @@
+yedidya krimolovski 315212795
+TOPMODULE: average
+Frequency: 333.324 MHz
+Total Power:  358.2 uW 
+Most power hungry gate: u_div/RC_CG_HIER_INST2/RC_CGIC_INST (PREICG_X0P5B_A9TR)

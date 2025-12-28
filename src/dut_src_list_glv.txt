@@ -1,0 +1,15 @@
+// Add all your libraries here
+// Standard Cells
+-f ../libraries/libraries.ARM65LP_SC.f
+
+// IOs
+-f ../libraries/libraries.TSMC65_IO.f
+
+// If you have memories, add the verilog behavioral model here and add
+// +MEMLOAD="PRELOAD"
+
+// Add your gatelevel netlist here
+../export/post_synth/average.v
+
+// Call your testbench from within the xrun_options file
+../src/tb/glv_tb.sv

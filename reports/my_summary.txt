@@ -1,0 +1,5 @@
+Yedidya Krimo 315212795
+TOPMODULE:   average
+Period:	     2.000 ns
+COUNT: 	     BUF  0
+AREA: 	     INV  247.68000000000023
