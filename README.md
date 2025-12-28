@@ -35,7 +35,7 @@ The assignment guides the student through the **complete front-end digital desig
 - **Power Optimization:** Clock gating with 52.96% toggle saving
 - **Full Verification:** RTL → Gate-Level → Power Analysis
 
-📖 **[Detailed Project Description](PROJECT_DESCRIPTION.md)** | 📊 **[Technical Metrics](TECHNICAL_METRICS.md)** | 💼 **[Resume Descriptions](RESUME_DESCRIPTION.md)**
+📖 **[Detailed Project Description](PROJECT_DESCRIPTION.md)** | 📊 **[Technical Metrics](TECHNICAL_METRICS.md)** | 💼 **[Resume Descriptions](docs/RESUME_DESCRIPTION.md)**
 
 ## Instructions
 
@@ -107,17 +107,25 @@ For detailed metrics, see [TECHNICAL_METRICS.md](TECHNICAL_METRICS.md)
 ## 📁 Project Structure
 
 ```
-hw3-315212795/
+power-optimized-streaming-average-unit/
 ├── src/
 │   ├── rtl/          # RTL source files (average.v, sum.v, div.sv)
 │   └── tb/           # Testbenches (average_tb.sv, glv_tb.sv)
 ├── scripts/          # Synthesis and simulation scripts
 ├── inputs/           # Design constraints (SDC, defines)
 ├── reports/          # Synthesis and analysis reports
-├── export/           # Synthesized netlists, SDF, VCD files
-├── PROJECT_DESCRIPTION.md    # Detailed project documentation
-├── TECHNICAL_METRICS.md      # Complete metrics summary
-└── RESUME_DESCRIPTION.md     # Resume-ready descriptions
+│   ├── synthesis/    # Synthesis reports
+│   └── simulation/   # Simulation reports
+├── output/           # Generated output files
+├── workspace/        # Workspace for running scripts
+├── docs/             # Documentation
+│   ├── RESUME_DESCRIPTION.md     # Resume-ready descriptions
+│   └── guides/       # Setup and usage guides
+├── tools/            # Utility scripts
+│   └── setup/        # Setup and configuration scripts
+├── PROJECT_DESCRIPTION.md        # Detailed project documentation
+├── TECHNICAL_METRICS.md          # Complete metrics summary
+└── README.md         # This file
 ```
 
 ## 🛠️ Tools & Technologies
@@ -131,8 +139,13 @@ hw3-315212795/
 
 - **[PROJECT_DESCRIPTION.md](PROJECT_DESCRIPTION.md)** - Comprehensive project documentation
 - **[TECHNICAL_METRICS.md](TECHNICAL_METRICS.md)** - Detailed performance metrics
-- **[RESUME_DESCRIPTION.md](RESUME_DESCRIPTION.md)** - Ready-to-use resume descriptions
-- **[UPLOAD_TO_GITHUB.md](UPLOAD_TO_GITHUB.md)** - Instructions for uploading to GitHub
+- **[RESUME_DESCRIPTION.md](docs/RESUME_DESCRIPTION.md)** - Ready-to-use resume descriptions
+
+### Setup & Usage Guides
+- **[Quick Start Guide](docs/guides/QUICK_START.md)** - Getting started with the project
+- **[GitHub Setup Instructions](docs/guides/GITHUB_SETUP_INSTRUCTIONS.md)** - Setting up GitHub repository
+- **[GitHub Upload Guide](docs/guides/GITHUB_UPLOAD_GUIDE.md)** - Uploading to GitHub
+- **[Upload to GitHub](docs/guides/UPLOAD_TO_GITHUB.md)** - Alternative upload instructions
 
 ## ⚠️ Disclaimer
 
