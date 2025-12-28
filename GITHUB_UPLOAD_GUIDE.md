@@ -25,12 +25,9 @@
 
 ## ⚠️ Questionable - Review Before Upload
 
-### Example/Demo Files (Should be deleted)
-- ❌ `src/rtl/sm.v` - Author: Nir Sever (example file, delete before upload)
-- ❌ `src/tb/sm_tb.v` - Author: Nir Sever (example file, delete before upload)
+### Example/Demo Files
+- ✅ `src/rtl/sm.v` and `src/tb/sm_tb.v` - **DELETED** (example files by Nir Sever have been removed)
 - ⚠️ `src/tb/sum_tb.sv` - Check if this is your work or provided template
-
-**Recommendation:** Delete example files before uploading. They are already in `.gitignore`.
 
 ## ❌ DO NOT Upload
 
@@ -58,9 +55,8 @@ Before uploading to GitHub:
    - Remove any `.vcd` files from tracking
    - Remove any `.db` library files
 
-3. **Delete Example Files**
-   - Delete `src/rtl/sm.v` and `src/tb/sm_tb.v` (example files by Nir Sever)
-   - These are already in `.gitignore` but should be deleted manually
+3. **Example Files Status**
+   - ✅ `src/rtl/sm.v` and `src/tb/sm_tb.v` have been deleted (example files by Nir Sever)
    - For `div.sv`: Note that it was provided by the course
    - For `procedures.tcl`: Note it's a course helper script
 

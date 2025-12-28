@@ -31,7 +31,6 @@ This is an academic project completed as part of course 83-612 Digital VLSI Desi
 Some files were provided as part of the course materials:
 - `src/rtl/div.sv` - Division unit provided by the course
 - `scripts/procedures.tcl` - Course helper procedures (ENICS)
-- `src/rtl/sm.v` and `src/tb/sm_tb.v` - Example files by Nir Sever
 
 Library definition files (`.tcl`) are included for reference, but actual 
 proprietary library files (`.lib`, `.db`, `.lef`) are not included and are 

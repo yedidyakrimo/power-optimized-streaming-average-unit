@@ -92,7 +92,7 @@ class driver #(parameter WIDTH = 32);
     endtask
 
     task check();
-        $fdisplay(fd_output,"# EX_2 %s %d", "Moshe Israeli",123456789);
+        $fdisplay(fd_output,"# EX_2 %s %d", "yedidya krimolovski",315212795);
         $fdisplay(fd_output,"_if.data_out_check, _if.data_out, _if.data_out_check == _if.data_out");
         $fdisplay(fd_output,"--------------------------------------------------------------------");
         forever begin

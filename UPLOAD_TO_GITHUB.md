@@ -4,12 +4,12 @@ Since automated upload has shell issues, here's the simple manual way:
 
 ## Step 1: Delete Copyright Files
 
-Before uploading, delete these files manually:
+Before uploading, delete these files manually (if they exist):
 - `docs/HW 3 - Part 1 - 2025-26.pdf`
 - `docs/HW 3 - Part 2 - 2025-26.pdf`
 - `docs/HW 3 - Part 3 - 2025-26.pdf`
-- `src/rtl/sm.v` (example file)
-- `src/tb/sm_tb.v` (example file)
+
+**Note:** Example files `src/rtl/sm.v` and `src/tb/sm_tb.v` have already been removed.
 
 ## Step 2: Create Repository on GitHub
 
