@@ -36,19 +36,7 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Setup scripts (no longer needed)
-check_and_setup_git.bat
-setup_git.ps1
-setup_git.py
-upload_to_github.ps1
-RUN_ME.bat
-GIT_STATUS.md
-QUICK_START.md
-README_RUN_ME.md
-FIX_LINE_ENDINGS.md
-FILES_TO_DELETE.txt
-CLEANUP_INSTRUCTIONS.md
-
 # Example files (not part of this project)
 src/rtl/sm.v
 src/tb/sm_tb.v
+

@@ -1,4 +1,33 @@
-This directory has all the inputs to your design (other than the RTL), such as:
-- Library definitions
-- SDC and MMMC definitions
-- General DEFINE file for your design
+# Inputs Directory
+
+This directory contains all design inputs and constraints for synthesis and simulation (excluding RTL source code).
+
+## Contents
+
+### Design Constraints
+- **average.sdc** - Synopsys Design Constraints for timing
+- **dut.sdc** - Device Under Test constraints
+- **average.dut.defines** - Combined design definitions
+
+### Design Definitions
+- **average.defines** - Design-specific definitions
+- **dut.defines** - General DUT definitions
+- **voltus.defines** - Power analysis definitions
+
+### Library Definitions
+Technology library setup files:
+- **libraries.TSMC65LP.tcl** - TSMC 65nm Low Power library
+- **libraries.ARM65LP_SC.tcl** - ARM standard cell library
+- **libraries.ARM65LP_SRAM.tcl** - ARM SRAM library
+- **libraries.TSMC65_IO.tcl** - TSMC I/O library
+
+## Usage
+
+These files are sourced by synthesis and simulation scripts in the `scripts/` directory. They define:
+- Timing constraints (clock period, input/output delays)
+- Design parameters (data width, timeout values)
+- Library paths and operating conditions
+- Technology-specific settings
+
+**Note:** Proprietary library files (`.lib`, `.db`, `.lef`) are not included in this repository.
+

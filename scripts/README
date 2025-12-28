@@ -1,6 +1,49 @@
-This directory should have the scripts for running your flow, including:
-- Script for running logic simulation (simulation.tcl)
-- Script for running logic synthesis (genus.tcl)
-- Script for running place and route (innovus.tcl)
-- Basic Common UI procedures for use with Cadence tools (procedures.tcl)
+# Scripts Directory
+
+This directory contains all TCL and shell scripts for running the design flow.
+
+## Main Scripts
+
+### Simulation Scripts
+- **simulation.tcl** - Logic simulation script for Cadence Xcelium
+- **run_sim.sh** - Shell script wrapper for running simulations
+- **backannotation.tcl** - SDF back-annotation simulation script
+
+### Synthesis Scripts
+- **genus.tcl** - Logic synthesis script for Cadence Genus
+- **settings.tcl** - Common settings and configurations
+- **procedures.tcl** - Helper procedures for Cadence tools (provided by course)
+
+### Power Analysis Scripts
+- **voltus.post_synth.tcl** - Power estimation using Cadence Voltus
+
+### Simulation Options
+- **xrun_options.glv** - Gate-level verification options
+- **xrun_options.backannotation** - Back-annotation simulation options
+
+## Usage
+
+### Running RTL Simulation
+```bash
+cd scripts
+./run_sim.sh
+```
+
+### Running Synthesis
+```tcl
+# From Cadence Genus
+source genus.tcl
+```
+
+### Running Power Analysis
+```tcl
+# From Cadence Voltus
+source voltus.post_synth.tcl
+```
+
+## Notes
+
+- `procedures.tcl` is provided by the course (ENICS) and should not be modified
+- Scripts expect the project structure as defined in the main README
+- Refer to the [main documentation](../README.md) for detailed usage instructions
 
