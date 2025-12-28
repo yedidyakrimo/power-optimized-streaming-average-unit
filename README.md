@@ -35,7 +35,7 @@ The assignment guides the student through the **complete front-end digital desig
 - **Power Optimization:** Clock gating with 52.96% toggle saving
 - **Full Verification:** RTL → Gate-Level → Power Analysis
 
-📖 **[Detailed Project Description](PROJECT_DESCRIPTION.md)** | 📊 **[Technical Metrics](TECHNICAL_METRICS.md)** | 💼 **[Resume Descriptions](RESUME_DESCRIPTION.md)**
+📖 **[Detailed Project Description](PROJECT_DESCRIPTION.md)** | 📊 **[Technical Metrics](TECHNICAL_METRICS.md)** | 💼 **[Resume Descriptions](docs/RESUME_DESCRIPTION.md)**
 
 ## Instructions
 
